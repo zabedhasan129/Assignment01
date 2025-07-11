@@ -18,6 +18,11 @@
     text-align: center;
 }
 
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
 
 
 
@@ -74,3 +79,40 @@
   border: none;
 }
 
+
+/*See It in Action css*/
+
+
+.action{
+  margin-top: 116px;
+}
+
+.action-content{
+  display: flex;
+  justify-content: space-around;
+}
+
+.action-content-left h3{
+  color: #252432;
+  font-size: 42px;
+  font-weight: bold;
+}
+
+.action-content-left p{
+  color: #252432;
+  font-size: 24px;
+  font-weight: 400;
+}
+.action-button{
+  color: #FFFFFF;
+  background-color: #4E47FF;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 12px 36px;
+  border-radius: 10px;
+  border: none;
+}
+
+.action-content-right .radius{
+  border-radius: 48px;
+}
