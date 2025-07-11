@@ -14,13 +14,13 @@
 
 /* shared items*/
 
-.text-center{
-    text-align: center;
+.text-center {
+  text-align: center;
 }
 
-main{
-    max-width: 1140px;
-    margin: 0 auto;
+main {
+  max-width: 1140px;
+  margin: 0 auto;
 }
 
 
@@ -51,26 +51,26 @@ main{
   border: none;
 }
 
-.header{
+.header {
   background-image: url("../images/Hero-bg.png");
   width: 100%;
   height: 698px;
 }
 
-.banner{
+.banner {
   margin: 309px 267px 237px 267px;
 }
 
-.banner-content h1{
+.banner-content h1 {
   color: #252432;
   font-weight: bold;
   font-size: 65px;
-  
-  
+
+
 }
 
-.banner-content .banner-button{
-   color: #FFFFFF;
+.banner-content .banner-button {
+  color: #FFFFFF;
   background-color: #4E47FF;
   font-weight: bold;
   font-size: 16px;
@@ -83,27 +83,28 @@ main{
 /*See It in Action css*/
 
 
-.action{
+.action {
   margin-top: 116px;
 }
 
-.action-content{
+.action-content {
   display: flex;
   justify-content: space-around;
 }
 
-.action-content-left h3{
+.action-content-left h3 {
   color: #252432;
   font-size: 42px;
   font-weight: bold;
 }
 
-.action-content-left p{
+.action-content-left p {
   color: #252432;
   font-size: 24px;
   font-weight: 400;
 }
-.action-button{
+
+.action-button {
   color: #FFFFFF;
   background-color: #4E47FF;
   font-weight: bold;
@@ -113,104 +114,169 @@ main{
   border: none;
 }
 
-.action-content-right .radius{
+.action-content-right .radius {
   border-radius: 48px;
 }
 
 /*Joined Thousands of Productive Users css part*/
-.productive-users{
+.productive-users {
   margin-top: 116px;
   background: rgba(78, 71, 255, 0.1);
   padding: 50px 142px;
 }
 
-.productive-users-content h3{
+.productive-users-content h3 {
   color: #252432;
   font-size: 42px;
   font-weight: bold;
 }
 
-.users-data{
+.users-data {
   display: flex;
   justify-content: space-around;
 }
 
-.data-title{
+.data-title {
   color: #4E47FF;
   font-size: 80px;
   font-weight: bold;
 }
 
-.data-description{
+.data-description {
   color: rgba(0, 0, 0, 0.5);
   font-size: 20px;
   font-weight: 400;
-  
+
 }
 
 /*What our users say css part*/
 
-.ourusers{
+.ourusers {
   display: flex;
   justify-content: space-around;
-  
+
 }
 
-.users{
+.users {
   margin-top: 137px;
 }
 
-.users h3{
+.users h3 {
   color: #252432;
   font-size: 42px;
   font-weight: bold;
-  
+
 
 }
 
 
-.icolor{
+.icolor {
   color: #FFB805;
 }
 
-.equal{
+.equal {
   display: flex;
   align-items: center;
   gap: 6px;
-  
+
 }
 
-.cards h4{
+.cards h4 {
   font-size: 32px;
   font-weight: 600;
-  
+
 }
-.ag-body{
+
+.ag-body {
   color: #1E1E1E;
   font-size: 16px;
   font-weight: 400;
 }
 
 .round-img {
-  width: 40px;        
-  height: 40px;             
-  border-radius: 50%;       
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
   border: 1px solid #3498db;
-  object-fit: cover;         
+  object-fit: cover;
 }
 
-.cards{
+.cards {
   border: 2px solid rgb(241, 240, 240);
   border-radius: 14px;
   background-color: rgba(255, 255, 255, 50);
   padding: 24px;
   margin-top: 50px;
-  
+
 }
 
-.equal span{
+.equal span {
   color: rgba(179, 179, 179, 100);
   font-size: 16px;
   font-weight: 400;
 }
 
+/*Let’s Get in Touch CSS part*/
+
+
+.touch {
+  margin-top: 92px;
+}
+
+.touch-container {
+  display: flex;
+  justify-content: space-around;
+  /* text-align: cnter; */
+  /* gap: 115px; */
+}
+
+.touch-container h3 {
+  width: 50%;
+  font-size: 97px;
+  font-weight: bold;
+  color: #000000;
+}
+
+.touch-container-form input[type="text"] {
+  height: 64px;
+  border-radius: 10px;
+  border-color: #D6DDED;
+  display: block;
+  width: 100%;
+  padding: 0px 10px;
+  margin-bottom: 24px;
+  
+
+}
+
+.touch-container-form input[type="email"] {
+  height: 64px;
+  border-radius: 10px;
+  border-color: #D6DDED;
+  display: block;
+  width: 100%;
+  padding: 0px 10px;
+  margin-bottom: 24px;
+}
+
+
+.touch textarea{
+  height: 90px;
+  border-radius: 10px;
+  border-color: #D6DDED;
+  display: block;
+  width: 100%;
+  padding: 10px 10px;
+  margin-bottom: 24px;
+  
+}
+
+.touch-button {
+  color: #FFFFFF;
+  background-color: #4E47FF;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 19px 201px;
+  border-radius: 10px;
+  border: none;
+}
