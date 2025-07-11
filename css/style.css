@@ -147,3 +147,70 @@ main{
   font-weight: 400;
   
 }
+
+/*What our users say css part*/
+
+.ourusers{
+  display: flex;
+  justify-content: space-around;
+  
+}
+
+.users{
+  margin-top: 137px;
+}
+
+.users h3{
+  color: #252432;
+  font-size: 42px;
+  font-weight: bold;
+  
+
+}
+
+
+.icolor{
+  color: #FFB805;
+}
+
+.equal{
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  
+}
+
+.cards h4{
+  font-size: 32px;
+  font-weight: 600;
+  
+}
+.ag-body{
+  color: #1E1E1E;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.round-img {
+  width: 40px;        
+  height: 40px;             
+  border-radius: 50%;       
+  border: 1px solid #3498db;
+  object-fit: cover;         
+}
+
+.cards{
+  border: 2px solid rgb(241, 240, 240);
+  border-radius: 14px;
+  background-color: rgba(255, 255, 255, 50);
+  padding: 24px;
+  margin-top: 50px;
+  
+}
+
+.equal span{
+  color: rgba(179, 179, 179, 100);
+  font-size: 16px;
+  font-weight: 400;
+}
+
