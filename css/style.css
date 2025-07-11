@@ -21,7 +21,10 @@
 main {
   max-width: 1140px;
   margin: 0 auto;
+  
+  
 }
+
 
 
 
@@ -59,6 +62,7 @@ main {
 
 .banner {
   margin: 309px 267px 237px 267px;
+  margin-top: 158px;
 }
 
 .banner-content h1 {
@@ -140,12 +144,14 @@ main {
   color: #4E47FF;
   font-size: 80px;
   font-weight: bold;
+
 }
 
 .data-description {
   color: rgba(0, 0, 0, 0.5);
   font-size: 20px;
   font-weight: 400;
+  
 
 }
 
@@ -245,7 +251,7 @@ main {
   width: 100%;
   padding: 0px 10px;
   margin-bottom: 24px;
-  
+
 
 }
 
@@ -257,10 +263,11 @@ main {
   width: 100%;
   padding: 0px 10px;
   margin-bottom: 24px;
+  
 }
 
 
-.touch textarea{
+.touch textarea {
   height: 90px;
   border-radius: 10px;
   border-color: #D6DDED;
@@ -268,7 +275,7 @@ main {
   width: 100%;
   padding: 10px 10px;
   margin-bottom: 24px;
-  
+
 }
 
 .touch-button {
@@ -279,4 +286,40 @@ main {
   padding: 19px 201px;
   border-radius: 10px;
   border: none;
+}
+
+.footer-container {
+  text-align: center;
+  margin-top: 104px;
+  margin-bottom: 20px;
+
+}
+
+
+.footer-items {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 20px;
+
+}
+
+.footer-item {
+  text-align: center;
+  color: #8987A1;
+}
+
+
+
+.footer-logo {
+  color: #4E47FF;
+  font-weight: 900;
+  font-size: 100px;
+  margin-bottom: 8px;
+}
+
+.footer-container p {
+  color: #8987A1;
+  font-size: 16px;
+  font-weight: 400;
 }
